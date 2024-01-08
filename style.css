@@ -165,6 +165,7 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
     margin-top: 120px;
+    margin-bottom: 120px;
 }
 .upcoming-offer-title{
 color: #F00;
@@ -224,5 +225,177 @@ font-weight: 400;
 line-height: 32px; 
 margin-bottom: 40px;
 }
+ /* section no.3 started */
 
+ .holiday-sale-section{
+    background-image: url('resources/Rectangle2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom:150px ;
+    width: 100%;
+    margin: 0 auto;
+    height: 957px;
+ }
+.holiday-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.holiday-text .title{
+    margin-bottom: 16px;
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+}
+.holiday-text .title2{
+    margin-bottom: 30px;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.holiday-text .title2 span{
+    color: #F00;
+}
+.holiday-text .content{
+margin-bottom: 65px;
+color: rgba(7, 2, 17, 0.60); 
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+}
+.holiday-images{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: space-between;
+    height: 450px;
+    background-image: url('resources/Rectangle1.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: relative;
+}
+.gift-box{
+    margin-right: 500px;
+}
+.discount-sticker{
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* section no.4 started */
+
+.awesome-porfolio-section{
+    display: block;
+    text-align: left;
+}
+.awesome-porfolio-section .text-area{
+    width: 65%;
+    margin:120px 0 50px 0 ;
+}
+.text-area .title{
+    margin-bottom: 16px;
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.text-area .title2{
+    margin-bottom: 22px;
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.text-area .content{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.portfolio-img-area{
+    margin-bottom: 120px;
+    margin-left: 0;
+}
+.portfolio-img-area img{
+    width: 31%;
+    margin:0 20px 20px 0;
+}
+/* section no.4 started */
+
+.newsletter-section{
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin-bottom: 120px;
+
+}
+.newsletter-text-area{
+    display: block;
+    padding:80px 0 ;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+}
+.newsletter-text-area .title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin: 40px 0 22px 0;
+}
+.newsletter-text-area .content{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+max-width:70%;
+text-align: center;
+margin: 0 auto;
+}
+.subscribe-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.subscribe-area input{
+    padding:28px 450px 28px 30px ;
+    border-radius: 60px;
+    border: none;
+    position: relative;
+}
+.subscribe-area input::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+.subscribe-area button{
+    padding: 24px 56px;
+    border-top-right-radius:60px ;
+    border-bottom-right-radius: 60px;
+    background: #F00;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize;
+border: none;
+outline: none;
+position: absolute;
+left: 57%;
+cursor: pointer;
 }
