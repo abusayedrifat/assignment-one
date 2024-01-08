@@ -325,12 +325,13 @@ text-transform: capitalize;
 .portfolio-img-area{
     margin-bottom: 120px;
     margin-left: 0;
+    width: 100%;
 }
 .portfolio-img-area img{
-    width: 31%;
+    width: 31.5%;
     margin:0 20px 20px 0;
 }
-/* section no.4 started */
+/* section no.5 started */
 
 .newsletter-section{
     border-radius: 16px;
