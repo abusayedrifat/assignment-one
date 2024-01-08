@@ -62,6 +62,7 @@ margin-bottom: 20px;
 font-size: 48px;
 font-weight: 700;
 }
+
 .banner-section3{
     margin-bottom: 120px;
     color: #FFF;
@@ -97,6 +98,7 @@ letter-spacing: 7.04px;
 }
 .welcome-text button{
     margin-left: 40px;
+    padding: 5px 10px;
     color: #FFF;
 font-family: Inter;
 font-size: 20px;
@@ -105,6 +107,10 @@ text-transform: uppercase;
 background-color: transparent;
 border: none;
 outline: none;
+cursor: pointer;
+}
+.welcome-text button:hover{
+    font-size: 24px;
 }
 /* main  */
 
@@ -372,10 +378,12 @@ margin: 0 auto;
     padding-bottom: 80px;
 }
 .subscribe-area input{
-    padding:28px 450px 28px 30px ;
-    border-radius: 60px;
+    width: 450px;
+    padding:28px 50px 28px 30px ;
+    border-radius: 50px 0 0 50px;
     border: none;
-    position: relative;
+    outline: none;
+    font-size: 20px;
 }
 .subscribe-area input::placeholder{
     color: rgba(7, 2, 17, 0.30);
@@ -384,7 +392,7 @@ font-size: 20px;
 font-weight: 400;
 }
 .subscribe-area button{
-    padding: 24px 56px;
+    padding: 28px 35px;
     border-top-right-radius:60px ;
     border-bottom-right-radius: 60px;
     background: #F00;
@@ -396,9 +404,10 @@ font-weight: 600;
 text-transform: capitalize;
 border: none;
 outline: none;
-position: absolute;
-left: 57%;
 cursor: pointer;
+}
+.subscribe-area button:hover{
+    font-size: 22px;
 }
 footer{
     background-color: #070211;
@@ -422,6 +431,7 @@ line-height: 40px;
 
 footer .contact span{
 padding-left: 10px;
+color: #FFF;
 }
 footer hr{
     background: rgba(255, 255, 255, 0.15);
